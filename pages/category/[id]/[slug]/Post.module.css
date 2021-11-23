@@ -1,0 +1,43 @@
+.postedDetails {
+    font-size: 1rem;
+    margin-bottom: 24px;
+}
+.postHeader {
+    text-align: center;
+}
+.postHeader h1 {
+    font-size: 3.25rem;
+    line-height: 3.375rem;
+    font-weight: 900;
+    letter-spacing: -1px
+}
+.postedBy {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.socialLinks {
+    margin-bottom: 24px;
+}
+.socialLinks a:hover {
+    background: #fff;
+}
+.socialLinks a {
+    background: #eee;
+    margin: 0 10px;
+    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #eee;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    font-size: 1rem;
+    font-family: Imperial, sans-serif;
+}
+
+
+.relatedList {}

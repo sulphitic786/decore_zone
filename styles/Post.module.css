@@ -1,0 +1,119 @@
+.postItem {
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.featureImage {
+    margin-bottom: 16px;
+}
+.relatedTitle,
+.postTitle {
+    border-top: 6px solid #000;
+    padding-top: 4px;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.875rem;
+    margin: 0;
+}
+
+.postTitle {
+    font-size: 2.625rem;
+    line-height: 3rem;
+}
+
+.relatedAuthor,
+.author {
+    margin: 8px 0 16px;
+    font-weight: 700;
+    letter-spacing: -.25px;
+}
+
+.description {
+    font-size: 1rem;
+    font-family: Imperial, sans-serif;
+}
+
+.relatedDescription {
+    font-size: 1rem;
+    font-family: Imperial, sans-serif;
+    margin: 0;
+}
+
+
+.relatedTitle {
+    border: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -.25px;
+}
+.recentTime,
+.relatedAuthor,
+.postedAt {
+    color: #335ab9;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin: 8px 0;
+}
+.postedAt {
+    text-transform: uppercase;
+}
+
+.relatedAuthor {
+    color: inherit;
+}
+
+.recentPostItem,
+.dailyPostItem {
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.dailyTitle {
+    margin: 0 0 4px;
+    font-size: .875rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.dailyPrice span {
+    font-weight: 700;
+}
+.dailyPrice {
+    color: #666;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    margin: 0;
+}
+.dailyPrice span,
+.dailyDescription {
+    color: #027f5e;
+    font-size: .75rem;
+    line-height: 1.125rem;
+    margin: 0;
+}
+
+.recentTime {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin: 4px 0 0;
+}
+.recentTitle {
+    font-size: 1rem;
+    line-height: 1.125rem;
+    margin: 0;
+    letter-spacing: -.25px;
+    font-weight: 700;
+}
+.halfThumb,
+.leftThumb {
+    display: flex;
+}
+.leftThumb .featureImage {
+    min-width: 140px;
+    margin-right: 16px;
+}
+.halfThumb .featureImage {
+    min-width: 50%;
+    padding-right: 16px;
+}

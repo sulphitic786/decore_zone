@@ -1,0 +1,24 @@
+{
+  "name": "wirecutter",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-image-gallery": "^1.2.7",
+    "react-slideshow-image": "^3.6.0",
+    "react-sticky": "^6.0.3",
+    "react-sticky-el": "^2.0.9"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3"
+  }
+}
