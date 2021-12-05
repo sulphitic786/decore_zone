@@ -1,0 +1,42 @@
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.Table thead {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+.Table td,
+.Table th {
+    padding: 6px 10px 8px;
+}
+
+
+.rating {
+    position: relative;
+    width: 80px;
+    display: inline-block;
+}
+.starRow {
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    color: #aaa;
+}
+.starRowFilled {
+    left: 0;
+    top: 0;
+    color: #FFB100;
+    position: absolute;
+
+}
+.star {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+.rating .star svg{
+    max-width: 100%;
+    height: auto;
+}

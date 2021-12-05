@@ -1,5 +1,13 @@
+import React from "react";
 import RelatedPostSingle from "../../../../components/RelatedPostSingle";
 import styles from "./Post.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import tableStyle from "./table.module.css";
+library.add(faStar);
+
+
 export default function PostDetail() {
     return <div className="container">
         <div className={styles.postedDetails}>
@@ -21,8 +29,77 @@ export default function PostDetail() {
         <div className={styles.relatedList}>
         
         <RelatedPostSingle leftThumb item={{featureImage: '/winter-boots-lowres-9423.jpg', title: 'How to Clean a Dog Bed', postedAt: 'Published November 4, 2021', postedBy: 'Kaitlyn Wells', description: 'Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway.'}} />
+
+        <table className={tableStyle.Table}>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Rating &amp; Reviews</th>
+                    <th>Buy Now</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><img width="75" src="/download.jpg" /></th>
+                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th><Rating value={4.6} /> {4.6} <br />
+                    Price: $30.00</th>
+                    <th><img /></th>
+                </tr>
+                <tr>
+                    <th><img width="75" src="/download.jpg" /></th>
+                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th><Rating value={4.6} /> {4.6} <br />
+                    Price: $30.00</th>
+                    <th><img /></th>
+                </tr>
+                <tr>
+                    <th><img width="75" src="/download.jpg" /></th>
+                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th><Rating value={4.6} /> {4.6} <br />
+                    Price: $30.00</th>
+                    <th><img /></th>
+                </tr>
+                <tr>
+                    <th><img width="75" src="/download.jpg" /></th>
+                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th><Rating value={4.6} /> {4.6} <br />
+                    Price: $30.00</th>
+                    <th><img /></th>
+                </tr>
+                <tr>
+                    <th><img width="75" src="/download.jpg" /></th>
+                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th><Rating value={4.6} /> {4.6} <br />
+                    Price: $30.00</th>
+                    <th><img /></th>
+                </tr>
+            </tbody>
+        </table>
         </div>
         </div>
         </div>
     </div>
 }
+
+const Rating = React.memo (({value}) => {
+    return <div className={tableStyle.rating}>
+        <span className={tableStyle.starRow}>
+            <span className={tableStyle.star}><FontAwesomeIcon icon='star' /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+        </span>
+        <span className={tableStyle.starRow+' '+tableStyle.starRowFilled} style={{width: ((value / 5) * 100)+'%' }}>
+            <span className={tableStyle.star}><FontAwesomeIcon icon='star' /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+            <span className={tableStyle.star}><FontAwesomeIcon icon="star" /></span>
+        </span>
+    </div>
+})
+
+Rating.displayName = "Rating"
