@@ -23,16 +23,19 @@ export default function PostDetail() {
             </div>
             <img src="/wallpaper-2048px-9558-2x1-1.jpg" alt="" />
             <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
+            <p className={styles.description}>'Tis the season for mouthwatering turkey, your best pumpkin pie recipes and all of the fantastic fixins'! Turkey Day is one of the most festive and filling holidays, but if you want to skip cooking up some delicious homemade Thanksgiving dinner recipes this year, we've got all the info on the best restaurants open on Thanksgiving 2021.</p>
         </div>
-        <div className="row">
-        <div className="col-sm-9">
-        <div className={styles.relatedList}>
-        
-        <RelatedPostSingle leftThumb item={{featureImage: '/winter-boots-lowres-9423.jpg', title: 'How to Clean a Dog Bed', postedAt: 'Published November 4, 2021', postedBy: 'Kaitlyn Wells', description: 'Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway.'}} />
-
         <table className={tableStyle.Table}>
             <thead>
                 <tr>
+                    <th>Sr.#</th>
                     <th>Image</th>
                     <th>Product</th>
                     <th>Rating &amp; Reviews</th>
@@ -41,45 +44,66 @@ export default function PostDetail() {
             </thead>
             <tbody>
                 <tr>
+                    <th>1</th>
                     <th><img width="75" src="/download.jpg" /></th>
-                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th class={tableStyle.tableProductName}><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
                     <th><Rating value={4.6} /> {4.6} <br />
                     Price: $30.00</th>
-                    <th><img /></th>
+                    <th class={tableStyle.tableAfflicateButtons}><img src="/affliates/1.jpg" /></th>
                 </tr>
                 <tr>
+                    <th>2</th>
                     <th><img width="75" src="/download.jpg" /></th>
-                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th class={tableStyle.tableProductName}><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
                     <th><Rating value={4.6} /> {4.6} <br />
                     Price: $30.00</th>
-                    <th><img /></th>
+                    <th class={tableStyle.tableAfflicateButtons}><img src="/affliates/2.jpg" /></th>
                 </tr>
                 <tr>
+                    <th>3</th>
                     <th><img width="75" src="/download.jpg" /></th>
-                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th class={tableStyle.tableProductName}><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
                     <th><Rating value={4.6} /> {4.6} <br />
                     Price: $30.00</th>
-                    <th><img /></th>
+                    <th class={tableStyle.tableAfflicateButtons}><img src="/affliates/3.jpg" /></th>
                 </tr>
                 <tr>
+                    <th>4</th>
                     <th><img width="75" src="/download.jpg" /></th>
-                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th class={tableStyle.tableProductName}><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
                     <th><Rating value={4.6} /> {4.6} <br />
                     Price: $30.00</th>
-                    <th><img /></th>
+                    <th class={tableStyle.tableAfflicateButtons}><img src="/affliates/3.jpg" /></th>
                 </tr>
                 <tr>
+                    <th>5</th>
                     <th><img width="75" src="/download.jpg" /></th>
-                    <th><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th class={tableStyle.tableProductName}><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
                     <th><Rating value={4.6} /> {4.6} <br />
                     Price: $30.00</th>
-                    <th><img /></th>
+                    <th class={tableStyle.tableAfflicateButtons}><img src="/affliates/3.jpg" /></th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th><img width="75" src="/download.jpg" /></th>
+                    <th class={tableStyle.tableProductName}><a href="#">Youngeyee Pink Unicorn Bean Bag Chair for Girls Room...</a></th>
+                    <th><Rating value={4.6} /> {4.6} <br />
+                    Price: $30.00</th>
+                    <th class={tableStyle.tableAfflicateButtons}><img src="/affliates/3.jpg" /></th>
                 </tr>
             </tbody>
         </table>
+        <div className={styles.relatedList}>
+        
+            <RelatedPostSingle counter={1} leftThumb item={{featureImage: '/winter-boots-lowres-9423.jpg', title: 'How to Clean a Dog Bed', postedAt: 'Published November 4, 2021', postedBy: 'Kaitlyn Wells', description: 'Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway.'}} />
+            <RelatedPostSingle counter={2} leftThumb item={{featureImage: '/winter-boots-lowres-9423.jpg', title: 'How to Clean a Dog Bed', postedAt: 'Published November 4, 2021', postedBy: 'Kaitlyn Wells', description: 'Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway.'}} />
+            <RelatedPostSingle counter={3} leftThumb item={{featureImage: '/winter-boots-lowres-9423.jpg', title: 'How to Clean a Dog Bed', postedAt: 'Published November 4, 2021', postedBy: 'Kaitlyn Wells', description: 'Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway.'}} />
+            <RelatedPostSingle counter={4} leftThumb item={{featureImage: '/winter-boots-lowres-9423.jpg', title: 'How to Clean a Dog Bed', postedAt: 'Published November 4, 2021', postedBy: 'Kaitlyn Wells', description: 'Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway.'}} />
+            <RelatedPostSingle counter={5} leftThumb item={{featureImage: '/winter-boots-lowres-9423.jpg', title: 'How to Clean a Dog Bed', postedAt: 'Published November 4, 2021', postedBy: 'Kaitlyn Wells', description: 'Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway. Using a few essentials cat and dog owners are likely to already own, it’s easy to turn a pet bed from a dingy mess into a comfortable hideaway.'}} />
+
+        
         </div>
-        </div>
-        </div>
+        
     </div>
 }
 

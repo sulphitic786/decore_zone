@@ -10,9 +10,6 @@
     clear: both;
     content: '';
 }
-.featureImage {
-    margin-bottom: 16px;
-}
 .relatedTitle,
 .postTitle {
     border-top: 6px solid #000;

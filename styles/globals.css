@@ -1068,3 +1068,8 @@ img {
 .btn ~ .btn {
   margin-left: 10px;
 }
+
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+  max-width: 30px;
+}

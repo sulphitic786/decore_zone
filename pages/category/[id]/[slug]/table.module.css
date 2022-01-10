@@ -1,18 +1,25 @@
 .Table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 .Table thead {
-    background: #000;
+    background: #00727a;
     color: #fff;
     text-transform: uppercase;
 }
 .Table td,
 .Table th {
     padding: 6px 10px 8px;
+    border-bottom: 1px solid rgb(202, 198, 198);
 }
 
-
+.tableProductName {
+    font-size: 1.3em;
+}
+.tableAfflicateButtons img {
+    max-width: 150px;
+}
 .rating {
     position: relative;
     width: 80px;

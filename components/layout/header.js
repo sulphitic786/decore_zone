@@ -5,7 +5,7 @@ export default function Header() {
     return (<Sticky topOffset={100}>
       <div className="site-header">
         <div className="container">
-          <a className="header-left" href={'/'} title="home page"><img src="/logo.svg" alt="logo" /></a>
+          <a className="header-left" href={'/'} title="home page"><img src="/decore-logo.png" alt="logo" /></a>
           <Navbar />
         </div>
       </div>
